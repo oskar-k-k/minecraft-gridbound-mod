@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="gridbound"
+version="1.0.0"
+displayName="Gridbound — Quest Borders"
+description='''Unlock 3x3 areas with FTB Quests. Each new quest grants a point and a random item.'''
+[[dependencies.gridbound]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.219,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.gridbound]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.gridbound]]
+modId="ftbquests"
+type="required"
+versionRange="[2101.1.36,)"
+ordering="AFTER"
+side="BOTH"
